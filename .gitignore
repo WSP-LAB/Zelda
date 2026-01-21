@@ -1,0 +1,9 @@
+fuzz/__pycache__
+fuzz/.venv
+*.log
+*.pyc
+*.csv
+fuzz/src/__pycache__
+*.tar
+*.zip
+chromedriver* 

@@ -1,0 +1,13 @@
+'test"\)
+;env;
+|env
+a;env;
+a);env;
+../../../../../../../../../../../../../../../usr/bin/env|
+[VALUE];env;
+[VALUE][LF]env;
+&set&
+set
+env
+/e\0
+a`)`
