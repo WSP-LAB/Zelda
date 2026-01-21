@@ -11,22 +11,22 @@ Zelda has been tested on Ubuntu 22.04. However, since Zelda is implemented in Py
 
 The easiest way to run Zelda is using Docker. This method handles all dependencies automatically.
 
-1. Build the Docker image:
+* Build the Docker image:
 ```
 $ docker build -t zelda .
 ```
 
-2. Run Zelda with Docker:
+* Run Zelda with Docker:
 ```
 $ docker run --rm zelda python3 main.py --opt fuzz --url [target_url] --login no
 ```
 
-3. For authenticated fuzzing:
+* For authenticated fuzzing:
 ```
 $ docker run --rm zelda python3 main.py --opt fuzz --url [target_url] --login yes
 ```
 
-4. To access logs or save results, mount a volume:
+* To access logs or save results, mount a volume:
 ```
 $ docker run --rm -v $(pwd)/logs:/app/fuzz/logs zelda python3 main.py --opt fuzz --url [target_url] --login no
 ```
