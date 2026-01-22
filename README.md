@@ -33,10 +33,6 @@ $ docker run --rm -v $(pwd)/logs:/app/fuzz/logs zelda python3 main.py --opt fuzz
 
 ### Option 2: Manual Installation
 
-* Download the zip file from the DOI website and unzip the file:
-```
-$ unzip zelda.zip -d zelda
-```
 * Ensure **Python 3.8 or above** and **Chrome** are installed. Install Python dependencies:
 ```
 $ pip install -r requirements.txt
